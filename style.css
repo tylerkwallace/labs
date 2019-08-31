@@ -1,13 +1,75 @@
 body {
-  background-color: lightblue;
+  background-color: #2C2C2C;
+}
+
+nav {
+  color: #FFFAE5;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
 }
 
 h1 {
-  color: white;
+  background-color: grey;
+  color: #FFFAE5;
+  text-align: center;
+  font-family: courier;
+}
+
+h2 {
+  background-color: grey;
+  color: #FFFAE5;
+  font-family: courier;
+  font-size: 20px;
+  text-align: center;
+}
+
+dl {
+  color: #FFFAE5;
+  font-family: verdana;
+  font-size: 13px;
+  text-align: center;
+}
+
+ol {
+  color: #FFFAE5;
+  font-family: verdana;
+  font-size: 13px;
   text-align: center;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  color: #FFFAE5;
+  font-family: courier;
+  font-size: 12px;
+  text-align: center;
 }
+
+.myclass {
+  color: #FFFAE5;
+}
+
+#myID {
+  font-size: 10;
+  color: #FFFAE5;
+}
+
+#container {
+  margin left: auto;
+  margin right: auto;
+  width: 90%;
+}
+
+.divclass {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #FFFAE5;
+}
+
+ol li{
+  list-style-type: none;
+}
+
+a {color:#FFFAE5;}         /* Unvisited link  */
+a:visited {color:#FFFAE5;} /* Visited link    */
+a:hover {color:#FF00FF;}   /* Mouse over link */
