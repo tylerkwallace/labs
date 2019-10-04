@@ -1,0 +1,141 @@
+body {
+  background color: white;
+}
+
+nav {
+  font-family: Helvetica;
+  background-color: #e3c57f;
+  color: white;
+  word-spacing: 1em;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+header{
+
+  font-family: Helvetica;
+  background-color: #0c1982; color: white;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 70px;
+  padding-top: 5px;
+  padding-left: 2em;
+  text-align: center;
+  }
+
+}
+
+h1 {
+  font: Helvetica;
+  background-repeat: no-repeat;
+  height: 100px; width: 650px; font-size: 3em;
+  padding-left: 150px; padding-top: 30px;
+  border: 1px solid #000033;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2 {
+  color: #14bd96;
+  font-family: Helvetica;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  color: black;
+  font-family: Helvetica;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+dl {
+  color: black;
+  font-family: verdana;
+  font-size: 13px;
+  text-align: left;
+}
+
+ol {
+  color: black;
+  font-family: verdana;
+  font-size: 13px;
+  text-align: left;
+}
+
+ul {
+  color: black;
+  font-family: verdana;
+  font-size: 13px;
+  text-align: left;
+}
+
+p {
+  color: black;
+  font-family: Verdana;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.myclass {
+  color: black;
+}
+
+#myID {
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  font-family: Verdana;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: #FFFFFF;
+  min-width: 650px;
+  max-width: 1280px;}
+}
+
+.divclass {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #FFFAE5;
+}
+
+ol li{
+  list-style-type: none;
+}
+
+a {color: black;}
+a:visited {color: white;}
+a:hover {color:lightblue;}
+
+{
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  margin: auto;
+  padding-left: 28px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
