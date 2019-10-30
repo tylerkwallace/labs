@@ -1,63 +1,107 @@
 body {
-  background-color: #2C2C2C;
+  background-image: linear-gradient(blue, white, blue);
 }
 
 nav {
-  color: #FFFAE5;
-  font-family: verdana;
-  font-size: 15px;
-  text-align: center;
+  background-color: lightblue;
+  color: blue;
+  word-spacing: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+  text-decoration: none;
+}
+
+header{
+
+  background-color: #000033; color: white;
+  background-image: url('C:/Users/tyler/Desktop/Internet Programming/assignments/sunset.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 70px;
+  padding-top: 5px;
+  padding-left: 2em;
+  text-shadow: 1px 1px 1px #FFF; }
+
 }
 
 h1 {
-  background-color: grey;
-  color: #FFFAE5;
-  text-align: center;
-  font-family: courier;
+  background-image: url('C:/Users/tyler/Desktop/Internet Programming/assignments/sunset.jpg');
+  background-repeat: no-repeat;
+  height: 100px; width: 650px; font-size: 3em;
+  padding-left: 150px; padding-top: 30px;
+  border: 1px solid #000033;
+  border-radius: 15px;;
 }
 
 h2 {
-  background-color: grey;
-  color: #FFFAE5;
-  font-family: courier;
-  font-size: 20px;
-  text-align: center;
+  color: lightblue;
+  font-family: "Times New Roman";
+  font-size: 25px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  color: black;
+  font-family: Verdana;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 dl {
-  color: #FFFAE5;
+  color: black;
   font-family: verdana;
   font-size: 13px;
-  text-align: center;
+  text-align: left;
 }
 
 ol {
-  color: #FFFAE5;
+  color: black;
   font-family: verdana;
   font-size: 13px;
-  text-align: center;
+  text-align: left;
+}
+
+ul {
+  color: black;
+  font-family: verdana;
+  font-size: 13px;
+  text-align: left;
 }
 
 p {
-  color: #FFFAE5;
-  font-family: courier;
+  color: black;
+  font-family: Verdana;
   font-size: 13px;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
 .myclass {
-  color: #FFFAE5;
+  color: black;
 }
 
 #myID {
-  font-size: 10;
-  color: #FFFAE5;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  font-family: Verdana;
 }
 
 #container {
-  margin left: auto;
-  margin right: auto;
-  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #FFFFFF;
+  min-width: 650px;
+  max-width: 1280px;
+  box-shadow: 3px 3px 3px #333;}
 }
 
 .divclass {
@@ -70,6 +114,6 @@ ol li{
   list-style-type: none;
 }
 
-a {color:#FFFAE5;}         /* Unvisited link  */
-a:visited {color:#FFFAE5;} /* Visited link    */
-a:hover {color:#FF00FF;}   /* Mouse over link */
+a {color: blue;}
+a:visited {color: blue;}
+a:hover {color:#FF00FF;}
