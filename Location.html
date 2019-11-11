@@ -4,6 +4,7 @@
 <title>Location</title>
 </head>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel = "stylesheet" href = "dog.css"/>
 <div id = "container"; class = "divclass"/>
 
@@ -12,18 +13,16 @@
 
 <header><h1>A Dog's Life</h1></header>
 
-  <nav>
-    <a href = "index.html">Home</a>
-
-    <a href = "Services.html">Services</a>
-
-    <a href = "Location.html">Location</a>
-
-    <a href = "Articles.html">Articles</a>
-
-    <a href = "Contact.html">Contact</a>
-
-  </nav>
+<div class="topnav" id="myTopnav">
+<a href="index.html">Home</a>
+<a href="Services.html">Services</a>
+<a class="active" href="Location.html">Location</a>
+<a href="Articles.html">Articles</a>
+<a href="Contact.html">Contact</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 
 
@@ -46,6 +45,17 @@
   yourfistname@yourlastname.com</a></p>
   </footer>
 </h4>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 

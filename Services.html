@@ -4,6 +4,7 @@
 <title>Services</title>
 </head>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel = "stylesheet" href = "dog.css"/>
 <div id = "container"; class = "divclass"/>
 
@@ -12,24 +13,23 @@
 
 <header><h1>A Dog's Life</h1></header>
 
-  <nav>
-    <a href = "index.html">Home</a>
-
-    <a href = "Services.html">Services</a>
-
-    <a href = "Location.html">Location</a>
-
-    <a href = "Articles.html">Articles</a>
-
-    <a href = "Contact.html">Contact</a>
-
-  </nav>
+<div class="topnav" id="myTopnav">
+<a href="index.html">Home</a>
+<a class="active" href="Services.html">Services</a>
+<a href="Location.html">Location</a>
+<a href="Articles.html">Articles</a>
+<a href="Contact.html">Contact</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 
   <main>
 
   <h2><center>What We Do</center></h2>
 
+  <center>
   <div class="row">
 
     <div class="column" style="background-color:white;">
@@ -37,27 +37,51 @@
       <p>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur.</p>
+        commodo consequat.</p>
     </div>
     <div class="column" style="background-color:white;">
       <h2><center>Service 2</center></h2>
       <p>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur.</p>
+        commodo consequat.</p>
     </div>
     <div class="column" style="background-color:white;">
       <h2><center>Service 3</center></h2>
       <p>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur.</p>
+        commodo consequat.</p>
     </div>
 
   </div>
+
+  <div style="overflow-x:auto;">
+  <table id="table" border="1">
+      <tr>
+        <th><center>Package Name</center></th>
+        <th><center>Description</center></th>
+        <th><center>Cost per Dog</center></th>
+      </tr>
+      <tr>
+        <td>Basic</td>
+        <td>Bathing, nails clipped</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td>Deluxe</td>
+        <td>Bathing, hair cut, nails clipped</td>
+        <td>$75</td>
+      </tr>
+      <tr>
+        <td>Supreme</td>
+        <td>Bathing, custom hair cut, nails clipped</td>
+        <td>$100</td>
+      </tr>
+
+    </table>
+  </div>
+  </center>
 
   </main>
 
@@ -68,6 +92,17 @@
   yourfistname@yourlastname.com</a></p>
   </footer>
 </h4>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 

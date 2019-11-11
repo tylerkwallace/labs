@@ -7,6 +7,7 @@
 content="width=device-width, initial-scale=1.0">
 </head>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel = "stylesheet" href = "dog.css"/>
 <div id = "container"; class = "divclass"/>
 
@@ -15,18 +16,16 @@ content="width=device-width, initial-scale=1.0">
 
 <header><h1>A Dog's Life</h1></header>
 
-  <nav>
-    <a href = "index.html">Home</a>
-
-    <a href = "Services.html">Services</a>
-
-    <a href = "Location.html">Location</a>
-
-    <a href = "Articles.html">Articles</a>
-
-    <a href = "Contact.html">Contact</a>
-
-  </nav>
+<div class="topnav" id="myTopnav">
+<a class="active" href="index.html">Home</a>
+<a href="Services.html">Services</a>
+<a href="Location.html">Location</a>
+<a href="Articles.html">Articles</a>
+<a href="Contact.html">Contact</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
   <img src = "banner_image.jpg"
   alt="Dogs looking over fence."
@@ -64,6 +63,17 @@ content="width=device-width, initial-scale=1.0">
   </div>
 
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </main>
 
