@@ -18,7 +18,7 @@ header{
 }
 
 h1 {
-  font: Helvetica;
+  font-family: Helvetica;
   background-repeat: no-repeat;
   height: 100px; width: 650px; font-size: 3em;
   padding-left: 150px; padding-top: 30px;
@@ -93,7 +93,8 @@ p {
   width: 80%;
   background-color: #FFFFFF;
   min-width: 650px;
-  max-width: 1280px;}
+  max-width: 1280px;
+}
 }
 
 .divclass {
@@ -110,9 +111,7 @@ a {color: white;}
 a:visited {color: white;}
 a:hover {color:lightgray;}
 
-{
-  box-sizing: border-box;
-}
+{box-sizing: border-box;}
 
 /* Create three equal columns that floats next to each other */
 .column {
